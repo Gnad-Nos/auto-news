@@ -11,11 +11,6 @@ import { error } from "console";
 const app = express();
 const turndownService = new TurndownService();
 
-// const pageID = 249423041583200;
-// FB.setAccessToken(
-//   "EAAeBFmzZA9S8BO88od4ydixwIZCXK0bM9pWGrExPtwpcHTIuAnmsOZC15apk1ZBORYubqtcQPQUUxsVSOwZCRF9BS8dRKziNzZCU6AMQDJT9XHbzG8FDbtyaK6N3ocdgMLijhsBpKCvH2FFQEo92hK30W0geGz0FOzSv18w7lZAQoyiZBAAxM2iZBgiJ9YtTN3wok8xJKNQfCOLItbda4fAPZBeEGGlMVVO2tiWZCZBlLAkZD"
-// );
-
 let result;
 app.get("/", (res) => {
   let parser = new Parser();
